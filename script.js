@@ -43,7 +43,7 @@ btnRoll.addEventListener('click', function () {
     const diceNum = Math.trunc(Math.random() * 6) + 1;
 
     diceElement.classList.remove('hidden');
-    diceElement.src = `/img/dice${diceNum}.png`;
+    diceElement.src = `img/dice${diceNum}.png`;
 
     if (diceNum !== 1) {
       currentScore += diceNum;
